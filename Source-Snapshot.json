@@ -1,0 +1,298 @@
+{
+  "name": "Renown",
+  "packageId": "tb.renown",
+  "assemblyName": "Renown",
+  "repositoryName": "rimworld-psyche-renown",
+  "workshopId": null,
+  "metadataVersions": [
+    "1.6",
+    "1.7"
+  ],
+  "originalSourceUnit": "Development/Renown",
+  "sourceSnapshotUtc": "2026-10-28T17:10:20.108Z",
+  "sourceFileFingerprints": [
+    {
+      "path": "About/About.xml",
+      "sha256": "ED12BEEA88298547101C260F7D8A77DDE3B6B710C0AB409EE996B51E17B3DA0B",
+      "bytes": 4801
+    },
+    {
+      "path": "Defs/BountyHunt.xml",
+      "sha256": "D9E1F77C755F281695CDD132C6DAFD3F2E36CCB0B95A7F984FE238CE39645260",
+      "bytes": 1099
+    },
+    {
+      "path": "Defs/CaravanThreat.xml",
+      "sha256": "2E94D17EBA28995613CA6C0B9DADDB2653EA957E1AF87C010F7FE48B445B6C39",
+      "bytes": 380
+    },
+    {
+      "path": "Defs/ColonyAddress.xml",
+      "sha256": "C5BFFB730D05893B24E065B3A8CBE0A4160B912C1CB082E5D09CAF86AD13C784",
+      "bytes": 250
+    },
+    {
+      "path": "Defs/PilgrimJoin.xml",
+      "sha256": "B186C3D4FCEED217197213DA6D152D43915887E4CAD2A8DE922AB50977FC982F",
+      "bytes": 250
+    },
+    {
+      "path": "Defs/Renown.xml",
+      "sha256": "F747430252F9CBEA9182CAD88FDFE8B20898867446B321D8BAADFFE85E4076AF",
+      "bytes": 944
+    },
+    {
+      "path": "Defs/Reputation.xml",
+      "sha256": "3F4FA0A8A8FAE70E40EA9814CC65FFF89A9BC01B1EE68BB4522A2A7BF05F7800",
+      "bytes": 6808
+    },
+    {
+      "path": "Defs/Sparring.xml",
+      "sha256": "55607C8FF2F34B578D9B32692C644D3A55CA1F8F3EAC14F19429C48986B430AA",
+      "bytes": 259
+    },
+    {
+      "path": "Defs/TargetedRaid.xml",
+      "sha256": "7143CBCB7C853527A3CCACC6DC7F2E79E794EC567A00388A6DE30FA8C0CAE262",
+      "bytes": 507
+    },
+    {
+      "path": "Source/Appraisal.cs",
+      "sha256": "540A37152FB0067A96BDC5A5C75B666FC5388EDB5A9BC6BF0399423CD58EEC02",
+      "bytes": 4838
+    },
+    {
+      "path": "Source/BountyKidnap.cs",
+      "sha256": "01FB57C6414550FF858D53D508C73411EABE872B641F42F76DEC72FF2AD01B13",
+      "bytes": 5138
+    },
+    {
+      "path": "Source/Campaigns.cs",
+      "sha256": "2F1A4CE90C98B5B5D1EFEEF20154677B3D57D57213421160985744C6BF89F524",
+      "bytes": 2564
+    },
+    {
+      "path": "Source/CaravanThreats.cs",
+      "sha256": "D7E1D371D39A5A7C02F84ABF48441138282F77A59289AE6384D6F006E714AF7C",
+      "bytes": 5373
+    },
+    {
+      "path": "Source/CaravanWarnings.cs",
+      "sha256": "85F3413879E283938196EB94AE13F8689E8B158FE76D3EE6AFFF3348021065DD",
+      "bytes": 5864
+    },
+    {
+      "path": "Source/ColonyAddress.cs",
+      "sha256": "8CBE6DA7626033D1315FDFFA38B68952797A6824FA7CD9A23B04BEF7F49F567F",
+      "bytes": 6139
+    },
+    {
+      "path": "Source/Construction.cs",
+      "sha256": "A3A8749138A087F7270C2AB0B6001F0294BE2D6E14415CD22220D649585AB87E",
+      "bytes": 1644
+    },
+    {
+      "path": "Source/ContractOffers.cs",
+      "sha256": "A8DB63B0A942C323305A6F4BD0986B9F3CBC7133B51E72281B90ABC8AC9244FC",
+      "bytes": 2680
+    },
+    {
+      "path": "Source/ContractQuest.cs",
+      "sha256": "876DF797CD184BD44F3271CDA59DA8275D2741D42A2B7CAE0D1C5B2FE5C375E2",
+      "bytes": 2783
+    },
+    {
+      "path": "Source/Contracts.cs",
+      "sha256": "E78D124A4E5B07FC6E8365F0DC8D4F1555E2301215C7CCFFC5266B490D6C95ED",
+      "bytes": 2076
+    },
+    {
+      "path": "Source/CrewPersuasion.cs",
+      "sha256": "8602C37E1322F3716BCADA2CD8AF4B051123FAD8973F9DB5B52B60C3DEE864F6",
+      "bytes": 4487
+    },
+    {
+      "path": "Source/Delegations.cs",
+      "sha256": "83ECF222E728842B3E9126ED4EC1F8B22E596D1BFBAC2960843BCE928EE6377E",
+      "bytes": 3295
+    },
+    {
+      "path": "Source/Emissaries.cs",
+      "sha256": "1429257E908667F3D3608D5B6311D492E0FFFF414B61A1361C21897C0E355B94",
+      "bytes": 1399
+    },
+    {
+      "path": "Source/EmissaryTrading.cs",
+      "sha256": "305321B5BE4DE4E0C57C0BD5A51E00A8A63EF5972FBEA97DD6CC8732719D0E2C",
+      "bytes": 3073
+    },
+    {
+      "path": "Source/EmissaryVisits.cs",
+      "sha256": "B3F3F360D00D68FC777135A05660D60C0830F23595101ACAE13373A446A7A4F2",
+      "bytes": 9716
+    },
+    {
+      "path": "Source/Executions.cs",
+      "sha256": "2F385BD25635FA2449013BEB8AD6562075775D1A990CAB28A152C8B040E65F40",
+      "bytes": 3050
+    },
+    {
+      "path": "Source/History.cs",
+      "sha256": "7510EF66CEF741885E91FACBC2D2BEAC6531175D49A91D5EBBA3F83CB6B118F8",
+      "bytes": 3720
+    },
+    {
+      "path": "Source/Hosting.cs",
+      "sha256": "C8F8514D6F043099AFD9284700821D01FEFEB3658FBE6198A654AC9A021C1D45",
+      "bytes": 8117
+    },
+    {
+      "path": "Source/Influence.cs",
+      "sha256": "54FF083C713AC710CC1483353E9973D01E40901F1A88B6D9E7B11BF73C9F4B95",
+      "bytes": 11419
+    },
+    {
+      "path": "Source/Medical.cs",
+      "sha256": "BE4C1C2A3D80E141537089984AD414B7228501D29FCA2FDC60D80D3DBAEA3D30",
+      "bytes": 1535
+    },
+    {
+      "path": "Source/MercenaryContracts.cs",
+      "sha256": "270FE4A2ECDD18B4F8B1B7278AACE00D0B936985E5AEC7B484BC8069F2100447",
+      "bytes": 4822
+    },
+    {
+      "path": "Source/MilitaryAid.cs",
+      "sha256": "BC9C896E2E9119BF3CE63DDF77FE592A1EC7A7526A5EBA4379FE4B59576AF145",
+      "bytes": 5959
+    },
+    {
+      "path": "Source/NarrativeAuthors.cs",
+      "sha256": "10E36161A08D8BE0F010EA99842B1544DC2E754C325C90BDC87297D3F004CF41",
+      "bytes": 1178
+    },
+    {
+      "path": "Source/Personality.cs",
+      "sha256": "C5829FBB2D01CF8EB216309D839C4BB1A442E614070F0C39FCC73F4CD7445206",
+      "bytes": 2134
+    },
+    {
+      "path": "Source/PersonalWealth.cs",
+      "sha256": "84EEE399C78AF316D7F85A85C5876041D904C22470F5455EBB95B2EAEFADAEFB",
+      "bytes": 4215
+    },
+    {
+      "path": "Source/PilgrimRecruitment.cs",
+      "sha256": "AEEB6F60A1A1BE7630994FFDBA753E5688DE6CD76505C255131881D78FE2EBE6",
+      "bytes": 5257
+    },
+    {
+      "path": "Source/Protest.cs",
+      "sha256": "B54784A4E4EA632B7618B3D1354CCB8F6C28BD55DD264B792B79E99CFB39C756",
+      "bytes": 5411
+    },
+    {
+      "path": "Source/PurposeVisitors.cs",
+      "sha256": "2A746AF5D45A2070FFBA8F380B566464CF9A283D8727791F1BC5987F3A854B48",
+      "bytes": 9976
+    },
+    {
+      "path": "Source/ReadScope.cs",
+      "sha256": "52F31B1E58CBDAA995EB45DEBB37B358D1A092730E2D371057DFAAD5C037B631",
+      "bytes": 2454
+    },
+    {
+      "path": "Source/Records.cs",
+      "sha256": "478171DC2DA7A637D21F816BA717E342CA40474CE11BFFDAACFF3E4C2D7985C4",
+      "bytes": 2577
+    },
+    {
+      "path": "Source/Recruitment.cs",
+      "sha256": "3E877FE5919B45976EF7412EBBD5D071E173FDD9ABD195040C55606A554559CB",
+      "bytes": 2301
+    },
+    {
+      "path": "Source/RejectedPawnCleanup.cs",
+      "sha256": "59B773DE2BF8D6068FA906DA286860977DBB14E5399107B6362C6541739DBE02",
+      "bytes": 2665
+    },
+    {
+      "path": "Source/Renown.csproj",
+      "sha256": "F89936447CACE66546AF1FD49F9326A94F9A37D3133AEA87C4FDE64F4D5CC08B",
+      "bytes": 1506
+    },
+    {
+      "path": "Source/ReporterNews.cs",
+      "sha256": "744EB8BFE0A3239724C1A948C3DD0BBA821A92F91C960DE7DA07E4E05ECCA440",
+      "bytes": 3091
+    },
+    {
+      "path": "Source/Reputation.cs",
+      "sha256": "CC7A4521E0DD203829B7A3662103187C8DEA6AAE2863831765DC84996574B83F",
+      "bytes": 11116
+    },
+    {
+      "path": "Source/RimTalkPlaceholder.cs",
+      "sha256": "50284A81759331F17EE498785E029CCD4924010AF854C9F61B68DD706F05BB3C",
+      "bytes": 2170
+    },
+    {
+      "path": "Source/Rivalry.cs",
+      "sha256": "4C98F3A4EC03B552631183D19B32C2DA03AFB4B4401E03D1AE74DF13E814B1F9",
+      "bytes": 4855
+    },
+    {
+      "path": "Source/RumoursBridge.cs",
+      "sha256": "C7146D68979CC8F16A02BCDEA35096E48BCD1A03B0C4951C8A9A2EDC251DA9F9",
+      "bytes": 2359
+    },
+    {
+      "path": "Source/Runtime.cs",
+      "sha256": "F71038FA8FBBE332BC8DF1AE407FC2D128FB3D14877ACDB06EDCA03EB7E6E3CB",
+      "bytes": 10532
+    },
+    {
+      "path": "Source/Sabotage.cs",
+      "sha256": "379C9D4C94527FD2981804F96385CBF41A49F1CCCD9FED9EC967ABF4F10B53CD",
+      "bytes": 7821
+    },
+    {
+      "path": "Source/SchemerBridge.cs",
+      "sha256": "B5CF9E5C246B164C8181A7FF3BB67BFCA3769A7A7E22DF4DD77D82BF00CB766C",
+      "bytes": 3877
+    },
+    {
+      "path": "Source/Sparring.cs",
+      "sha256": "25B4ADA7BD979D7504A730315153304A0BBCB75CA88D0EDD487987C7F4F80953",
+      "bytes": 11080
+    },
+    {
+      "path": "Source/Splintering.cs",
+      "sha256": "7BE9FEC40B1BB5B68E2124AA95970C9B2C34A6794B286EB2D9254F0CAAEC6B7A",
+      "bytes": 5935
+    },
+    {
+      "path": "Source/Strike.cs",
+      "sha256": "9C4E8756C39F2AFDC76989A2537707C096F641D87939F6376658DE66737EBE82",
+      "bytes": 1994
+    },
+    {
+      "path": "Source/TargetedThreats.cs",
+      "sha256": "3440969A57D323EE1BC5119942A6F553C9CB7DF6A7C6DA6B3E063AFBB537E39A",
+      "bytes": 12413
+    },
+    {
+      "path": "Source/Visits.cs",
+      "sha256": "384BB1DB6B4BC455C35D4B252B92A725A5B022F2DD3250F4CC960B70CAD9C406",
+      "bytes": 17053
+    }
+  ],
+  "stagedProjectAdjustments": [
+    "Harmony assembly path made configurable"
+  ],
+  "build16": "NOT_RUN_THIS_PASS",
+  "build17": "COMPILED_AGAINST_LOCAL_1.7_API",
+  "nativePlaytest": "NOT_RUN_THIS_PUBLICATION_PASS",
+  "gameplaySourceModified": false,
+  "compiled17SHA256": "B67CF247D08B68199C93279C93E426EF8E1B70051699857E0407A1872FEB304D"
+}

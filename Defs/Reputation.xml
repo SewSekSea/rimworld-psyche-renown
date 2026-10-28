@@ -1,0 +1,88 @@
+<Defs>
+  <ThoughtDef>
+    <defName>RN_CrewFracture</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>5</durationDays><stackLimit>-1</stackLimit><stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages><li><label>on opposite sides of our crew's grievance</label><baseOpinionOffset>-12</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <JobDef><defName>RN_SabotageBench</defName><driverClass>Renown.JobDriver_Sabotage</driverClass><reportString>tampering with TargetA.</reportString><casualInterruptible>true</casualInterruptible></JobDef>
+  <ThinkTreeDef><defName>RN_SabotageIdle</defName><insertTag>Humanlike_PostMain</insertTag><insertPriority>0</insertPriority><thinkRoot Class="Renown.JobGiver_Sabotage" /></ThinkTreeDef>
+  <InteractionDef>
+    <defName>RN_CrewOutreach</defName><label>discuss crew standing</label><workerClass>Renown.InteractionWorker_Outreach</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] shared a sourced account of their crew leader with [RECIPIENT_nameDef].</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+  <ThoughtDef>
+    <defName>RN_CampaignRespect</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>3</durationDays><stackLimit>1</stackLimit><stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages><li><label>persuaded by a sourced account</label><baseOpinionOffset>4</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RN_CampaignDoubt</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>3</durationDays><stackLimit>1</stackLimit><stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages><li><label>doubt after a sourced account</label><baseOpinionOffset>-4</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <InteractionDef>
+    <defName>RN_CrewCampaign</defName><label>challenge a rival's standing</label><workerClass>Renown.InteractionWorker_Campaign</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] shared an account of a rival crew leader with [RECIPIENT_nameDef].</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+  <ThoughtDef>
+    <defName>RN_CrewProtest</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>1</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>protesting unmet needs</label><description>Our crew gave notice and our needs are still unmet. We are making our dissatisfaction known.</description><baseMoodEffect>-3</baseMoodEffect></li></stages>
+  </ThoughtDef>
+  <InteractionDef>
+    <defName>RN_MediateRequest</defName><label>discuss a crew request</label><workerClass>Renown.InteractionWorker_Mediate</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] discussed allowing more time for a crew request with [RECIPIENT_nameDef].</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+  <InteractionDef>
+    <defName>RN_DiplomaticIntroduction</defName><label>diplomatic introduction</label><workerClass>Renown.InteractionWorker_Diplomacy</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] made a diplomatic introduction to [RECIPIENT_nameDef].</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+  <InteractionDef>
+    <defName>RN_MakeCase</defName><label>make a case</label><workerClass>Renown.InteractionWorker_Persuade</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] drew on their reputation while talking with [RECIPIENT_nameDef].</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+  <ThoughtDef>
+    <defName>RN_PersuasiveStanding</defName><thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>1</durationDays><stackLimit>1</stackLimit><stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages><li><label>persuasive standing</label><baseOpinionOffset>2</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RN_RequestMet</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>2</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>our request was heard</label><description>We spoke up about what we needed, and things improved.</description><baseMoodEffect>2</baseMoodEffect></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RN_RequestUnmet</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>2</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>our request went unanswered</label><description>We spoke up about what we needed, but our request was not met.</description><baseMoodEffect>-2</baseMoodEffect></li></stages>
+  </ThoughtDef>
+  <InteractionDef>
+    <defName>RN_ShareReputation</defName><label>share a reputation</label><workerClass>Renown.InteractionWorker_Share</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] an account of someone's notable deed.</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+  <ThoughtDef>
+    <defName>RN_RespectedDeed</defName><thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>2</durationDays><stackLimit>1</stackLimit><stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <developmentalStageFilter>Adult</developmentalStageFilter><socialTargetDevelopmentalStageFilter>Adult</socialTargetDevelopmentalStageFilter>
+    <stages><li><label>respected a witnessed deed</label><baseOpinionOffset>3</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <QuestScriptDef>
+    <defName>RN_TradeContract</defName>
+    <randomlySelectable>false</randomlySelectable>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <expireDaysRange>4~8</expireDaysRange>
+    <root Class="Renown.ContractQuestRoot" />
+  </QuestScriptDef>
+  <QuestScriptDef>
+    <defName>RN_MercenaryContract</defName>
+    <randomlySelectable>false</randomlySelectable>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <expireDaysRange>4~8</expireDaysRange>
+    <root Class="Renown.MercenaryQuestRoot" />
+  </QuestScriptDef>
+  <InteractionDef>
+    <defName>RN_Interview</defName><label>ask for an account</label><workerClass>Renown.InteractionWorker_Interview</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a local account.</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+</Defs>

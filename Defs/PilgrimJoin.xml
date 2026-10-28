@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LetterDef>
+    <defName>RN_PilgrimJoin</defName>
+    <label>pilgrim asks to stay</label>
+    <letterClass>Renown.PilgrimJoinLetter</letterClass>
+    <color>(0.6, 0.8, 1)</color>
+  </LetterDef>
+</Defs>

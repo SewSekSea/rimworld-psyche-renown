@@ -1,0 +1,8 @@
+<Defs>
+  <JobDef>
+    <defName>RN_ColonyAddress</defName>
+    <driverClass>Renown.JobDriver_ColonyAddress</driverClass>
+    <reportString>giving a colony address.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+</Defs>

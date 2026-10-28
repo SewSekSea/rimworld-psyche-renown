@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DutyDef>
+    <defName>RN_BountyRelease</defName>
+    <thinkNode Class="Renown.JobGiver_BountyRelease" />
+  </DutyDef>
+  <RaidStrategyDef>
+    <defName>RN_BountyAttack</defName>
+    <workerClass>Renown.BountyRaidStrategy</workerClass>
+    <selectionWeightPerPointsCurve><points><li>(0, 0)</li><li>(100000, 0)</li></points></selectionWeightPerPointsCurve>
+    <arrivalTextEnemy>They seek a named colonist for capture.</arrivalTextEnemy>
+    <letterLabelEnemy>Bounty hunters</letterLabelEnemy>
+    <arriveModes><li>EdgeWalkIn</li></arriveModes>
+  </RaidStrategyDef>
+  <DutyDef>
+    <defName>RN_BountyHunt</defName>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="Renown.JobGiver_BountyKidnap" />
+        <li Class="JobGiver_AIFightEnemies"><targetAcquireRadius>20</targetAcquireRadius><targetKeepRadius>23</targetKeepRadius></li>
+        <li Class="JobGiver_AITrashDutyFocus" />
+        <li Class="JobGiver_AISapper" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+</Defs>

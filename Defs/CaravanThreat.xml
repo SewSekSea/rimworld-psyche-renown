@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>RN_CaravanThreat</defName>
+    <label>targeted caravan encounter</label>
+    <workerClass>Renown.CaravanThreatWorker</workerClass>
+    <category>ThreatBig</category>
+    <targetTags><li>Caravan</li></targetTags>
+    <letterDef>ThreatBig</letterDef>
+    <baseChance>0</baseChance>
+  </IncidentDef>
+</Defs>

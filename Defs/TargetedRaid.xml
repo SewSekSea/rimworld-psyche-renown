@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RaidStrategyDef>
+    <defName>RN_TargetedAttack</defName>
+    <workerClass>Renown.TargetedRaidStrategy</workerClass>
+    <selectionWeightPerPointsCurve><points><li>(0, 0)</li><li>(100000, 0)</li></points></selectionWeightPerPointsCurve>
+    <arrivalTextEnemy>They intend to attack a named colonist.</arrivalTextEnemy>
+    <letterLabelEnemy>Targeted attackers</letterLabelEnemy>
+    <arriveModes><li>EdgeWalkIn</li></arriveModes>
+  </RaidStrategyDef>
+</Defs>

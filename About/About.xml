@@ -1,0 +1,34 @@
+<ModMetaData>
+  <name>Renown</name><author>T&amp;B Modding</author><packageId>tb.renown</packageId>
+  <supportedVersions><li>1.6</li><li>1.7</li></supportedVersions>
+  <modVersion>0.5.0</modVersion>
+  <description>### TESTING ###
+They know your name. That changes things.
+
+Renown turns witnessed deeds into sourced stories. Exceptional craftsmanship, rescues, hostile downings, care and executions can shape how individual pawns see one another. Fame is not admiration: the same account can inspire respect, fear or distrust, depending on the listener and what they actually know. Personalities colour reactions without inventing evidence or forcing loyalty.
+
+SPEAK. COMPETE. BE SEEN.
+Player-led colony addresses and friendly sparring work without paid DLC. Listeners must actually attend to count as witnesses. Sparring is non-injuring, not free combat experience. Attempt cooldowns include cancellations. Optional personal-wealth prestige concerns witnessed worn/equipped valuables and qualifying private quarters, not automatic credit for communal wealth.
+
+Exceptional completed quality-rated buildings can earn craftsmanship recognition for the finishing worker. Existing book-writing systems using native recipe completion can also qualify. Found/generated books and regenerated descriptions do not invent authorship. Custom writing pipelines require specific compatibility verification.
+
+CREWS WITH SOMETHING TO SAY
+Known deeds feed Crew tension, requests and sourced rival campaigns. Trusted speakers can mediate needs requests. Optional persuasion, protests, limited production strikes, sabotage and splintering pressure add warned consequences with limits and resolution paths. Listeners may reject a campaign or admire its target instead. Crew retains its own membership and leadership rules. Renown does not appoint leaders, automatically exile pawns or override Schemer support rules.
+
+THE OUTSIDE WORLD HEARS ABOUT YOU
+Eligible visitors can carry reports to factions. Separate options enable visiting delegations, recruitment offers, pilgrims, reporters and delegation hosting. Pilgrim recruitment requires both relevant options and a player decision. Wider reporter bulletins require actual tracked observations and a returning reporter with hosting enabled. Neither joining nor favourable news is guaranteed. Hosting concerns have a grace period; native visitor consequences remain independent.
+
+Native trade and mercenary contracts require your acceptance in Quests. Review objectives, rewards, travel and deadlines there. Player-led emissary visits require an eligible caravan envoy and evidence held by the destination faction. Optional successful visits can earn temporary, settlement-specific buying discounts. Optional military-aid requests retain native eligibility, costs and cooldowns; submission does not guarantee arrival or a refund. Nothing automatically sends your colonists travelling.
+
+THE COST OF A FAMILIAR NAME
+Optional warned home attacks, named-target bounty hunts and caravan encounters introduce bounded dangers of fame. Ordinary storyteller raids are not replaced. Capture may lead to native captivity; release is not immunity and ransom/rescue is not guaranteed. Third-party raid restrictions, including World Domination faction filters, can suppress native dispatch. Renown does not bypass them.
+
+YOUR COLONY, YOUR OPTIONS
+Consequential optional systems are off by default and independently selectable. Cooldowns, attempt budgets and record limits constrain repetition. Switching an option off prevents future actions but does not necessarily erase delivered memories, consequences or accepted native quests. Reputation and sourced knowledge do not require every option to be enabled.
+
+Psyche UI provides optional reputation, evidence and outcome readouts, including caravan subjects. Crew, Schemer, Rumours and other Psyche modules are optional integrations. RimWorld 1.6 and Harmony are required. No paid DLC is required.
+
+Back up saves and test in a disposable colony first. This is a testing candidate, not certification of every mod stack, historical save or balance setting. Diplomacy follows native rules as modified by your stack; displayed outcomes report actual changes. Temporary book-author and narrowly guarded rejected-generation safeguards do not repair every possible pre-existing save fault. See the supplied change notes and testing checklist for exact scope and known limitations.</description>
+  <modDependencies><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li></modDependencies>
+  <loadAfter><li>brrainz.harmony</li><li>ludeon.rimworld</li><li>crew.factions</li><li>tb.schemer</li><li>tb.psycheui</li></loadAfter>
+</ModMetaData>

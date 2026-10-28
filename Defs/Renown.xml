@@ -1,0 +1,13 @@
+<Defs>
+  <InteractionDef>
+    <defName>RN_RecognizeCraft</defName><label>recognize craftsmanship</label><workerClass>Renown.InteractionWorker_Recognize</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator><rulesStrings><li>r_logentry->[INITIATOR_nameDef] recognized [RECIPIENT_nameDef] for exceptional craftsmanship they had witnessed.</li></rulesStrings></logRulesInitiator>
+  </InteractionDef>
+  <ThoughtDef>
+    <defName>RN_RespectedCraft</defName><thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>2</durationDays><stackLimit>1</stackLimit><stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <developmentalStageFilter>Adult</developmentalStageFilter><socialTargetDevelopmentalStageFilter>Adult</socialTargetDevelopmentalStageFilter>
+    <stages><li><label>respected their craftsmanship</label><baseOpinionOffset>3</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+</Defs>

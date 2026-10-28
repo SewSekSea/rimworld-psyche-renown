@@ -1,0 +1,8 @@
+<Defs>
+  <JobDef>
+    <defName>RN_Sparring</defName>
+    <driverClass>Renown.JobDriver_Sparring</driverClass>
+    <reportString>taking part in a friendly sparring contest.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+</Defs>
